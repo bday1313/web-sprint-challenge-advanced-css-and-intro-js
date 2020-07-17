@@ -44,7 +44,17 @@ a {
 }	
 a:hover {	
     font-weight: bold;	
-}	
+}
+
+@media (min-width: 500px){
+    a{
+       display:flex;
+       justify-content:space-between;
+
+
+    }
+}
+
 .name{	
     font-size: 150%;	
     font-weight: 200;	
